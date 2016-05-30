@@ -1,0 +1,13 @@
+{
+  "name": "file-move",
+  "version": "1.0.0",
+  "description": "file-move app",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "dive": "^0.5.0",
+    "fs": "0.0.2",
+    "path": "^0.12.7"
+  }
+}
