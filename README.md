@@ -35,7 +35,7 @@ This would automatically get updated to show:
 var db = require('./server/dbconfig.js');
 ```
 
-Note that all files (<b><i>except for node modules<i/></b>) in the directory are automatically parsed through and require statements are updated as necessary. If you have any large files in your directory that you want to ignore (e.g. jpeg or png files) in order to increase performance, you can select file types to ignore by using the --ignore flag. You must include a comma separated list (with no spaces) after the --ignore flag. Example usage:
+Note that all files (<b><i>except for node modules</i></b>) in the directory are automatically parsed through and require statements are updated as necessary. If you have any large files in your directory that you want to ignore (e.g. jpeg or png files) in order to increase performance, you can select file types to ignore by using the --ignore flag. You must include a comma separated list (with no spaces) after the --ignore flag. Example usage:
 ```
 node node_modules/file-move/update.js --oldfilepath [oldfilename] --newfilepath [newfilename] --ignore jpeg,png,gif
 ```
